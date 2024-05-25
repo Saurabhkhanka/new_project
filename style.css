@@ -11,7 +11,8 @@ html {
     width: 100%;
 }
 
-body {
+.herosection {
+    height: 110%;
     background-image: url('https://images.unsplash.com/photo-1614396648745-d5de9c9e037e?q=80&w=2801&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-repeat: no-repeat;
@@ -119,3 +120,53 @@ h2 {
     margin-left: 300px;
     margin-top: 30px;
 }
+
+.strength{
+    height: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+ .quot2{
+    height: 30%;
+ }
+
+.quot2 h3{
+    padding-top: 50px;
+}
+
+.quot2 p{
+    margin-top: 20px; 
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.cards{
+    height: 70%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards > div {
+    width: 23%;
+    padding: 10px 20px;
+}
+
+.child-card > h3{
+    margin-top: 30px;
+    font-weight: 700;
+} 
+
+.child-card > p{
+    margin-top: 30px;
+    font-size: 20px;
+    
+} 
+.cards > div > i {
+    margin-top: 30px;
+    font-size: 40px;
+} 
+

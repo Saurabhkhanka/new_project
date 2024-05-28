@@ -29,7 +29,7 @@ nav {
     cursor: pointer;
     color: white;
     padding: 5px 2px;
-    font-size: 40px;
+    font-size: 4vw;
     font-weight: 700;
 }
 
@@ -43,10 +43,10 @@ nav {
 }
 
 
-h2 {
+#about > h2 {
     cursor: pointer;
     list-style: none;
-    font-size: 16px;
+    font-size: 1.3vw;
     font-weight: 700;
     color: white;
     text-transform: uppercase;
@@ -70,11 +70,11 @@ h2 {
     color: white;
     width: 10vw;
     height: 30px;
-    font-size: 16px;
+    font-size: 1.3vw;
     font-weight: 700;
 }
 
-#social-media i {
+#social-media > i {
     cursor: pointer;
 }
 
@@ -90,94 +90,100 @@ h2 {
 #quot {
     /* background-color: red; */
     width: 70vw;
-    height: 250px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 15vw;
+    margin: 250px 15vw;
     text-transform: uppercase;
 }
 
 #quot > h1 {
     /* background-color: red; */
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -110%);
     color: white;
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: 600;
-    line-height: 50px;
+    line-height: 3.5vw;
     text-align: center;
 }
 
-#quot button {
-    padding: 15px 30px;
-    font-size: 20px;
+#quot > button {
+    padding: 1vw 2vw;
+    font-size: 2vw;
     margin-left: 30vw;
-    margin-top: 3.5vw;
+    margin-top: 3vw;
 }
 
 .section-2{
-    height: 50%;
+    height: 29vw;
+    width: 100vw;
     background-color: black;
     color: white;
     text-align: center;
 
 }
  .quot2{
-    height: 30%;
+    /* background-color: red; */
+    height: 20%;
  }
 
 .quot2 h3{
-    padding-top: 50px;
+    /* background-color: green; */
+    font-size: 2vw;
+    padding-top: 2vw;
     font-weight: 400;
 }
 
 .quot2 p{
-    margin-top: 20px; 
-    font-size: 20px;
+    /* background-color: magenta; */
+    margin-top: .5vw; 
+    font-size: 2vw;
    font-weight: 700;
     
 }
 
 .cards{
+    /* background-color: green; */
+    margin-top: 1vw;
     height: 70%;
-    padding: 30px 100px;
+    padding: 1vw 7vw;
     display: flex;
     justify-content: space-between;
 }
 
 .cards > div {
-    width: 23%;
-    padding: 10px 20px;
+    /* background-color: brown; */
+    height: 19vw;
+    width: 20vw;
+    padding: .5vw 1vw;
 }
 
 .child-card > h3{
-    margin-top: 30px;
+    margin-top: 1vw;
     font-weight: 700;
+    font-size: 1.5vw;
+    /* background-color: magenta; */
 } 
 
 .child-card > p{
-    margin-top: 30px;
-    font-size: 20px;
+    /* background-color: magenta; */
+    margin-top: 1vw;
+    font-size: 1.8vw;
     
 } 
 .cards > div > i {
-    margin-top: 30px;
-    font-size: 40px;
+    /* background-color: magenta; */
+    font-size: 4vw;
 } 
 
 .section-3 {
-    height: 120%;
+    height: 150%;
+    width: 100vw;
     color: white;
     background-color: #151515;
     text-align: center;
-    padding: 10px 200px;
+    padding: 1vw 6.7vw;
 }
 
 .hp{
-    margin-top: 20px;
+    margin-top: 1vw;
     background-color: cyan;
 }
 
@@ -186,18 +192,27 @@ h2 {
 }
 
 .hp > p{
-   margin-top: 10px;
-   font-size: 20px;
+   margin-top: .5vw;
+   font-size: 1.5vw;
    font-weight: 700;
 }
 
-.upper-part{
-    height: 350px;
-    margin-top: 20px;
+.main{
     background-color: red;
+    height: 80%;
+}
+
+.upper-part{
+    height: 40%;
+    margin-top: 1vw;
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+
+.upper-part > div {
+    height: 100%;
+    width: 27vw;
 }
 
 .strength-weightlifting{
@@ -207,10 +222,25 @@ h2 {
 
 .cardio-indoor{
     height: 300px;
-    background-color: goldenrod;
+    background-color: rgb(64, 13, 173);
 }
 
 .strength-kettlebell{
     height: 300px;
-    background-color: goldenrod;
+    background-color: rgb(33, 185, 25);
+}
+
+.lower-part{
+    margin-top: 1.5vw;
+    height: 50%;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-part > div {
+    height: 100%;
+    width: 42vw;
+    background-color: white;
+    /* border: 1px solid black; */
 }

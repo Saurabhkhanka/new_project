@@ -12,7 +12,7 @@ html {
 }
 
 .section-1 {
-    height: 110%;
+    height: 75vw;
     background-image: url('https://images.unsplash.com/photo-1614396648745-d5de9c9e037e?q=80&w=2801&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,10 +25,10 @@ nav {
     padding: 1vw 1vw;
 }
 
-.logo > h1 {
+.logo>h1 {
     cursor: pointer;
     color: white;
-    padding: 5px 2px;
+    padding: .5vw .2vw;
     font-size: 4vw;
     font-weight: 700;
 }
@@ -36,14 +36,14 @@ nav {
 
 #about {
     width: 40vw;
-    height: 30px;
+    height: 2vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 
-#about > h2 {
+#about>h2 {
     cursor: pointer;
     list-style: none;
     font-size: 1.3vw;
@@ -53,12 +53,12 @@ nav {
 }
 
 #menu {
-    height: 30px;
-    width: 30px;
-    border: 2px solid black;
-    border-radius: 14px;
+    height: 2vw;
+    width: 2vw;
+    border: .2vw solid black;
+    border-radius: 1vw;
     padding: 4px 6px;
-    font-size: 16px;
+    font-size: 1vw;
     font-weight: 600;
     display: none;
 }
@@ -69,19 +69,19 @@ nav {
     justify-content: space-between;
     color: white;
     width: 10vw;
-    height: 30px;
+    height: 2vw;
     font-size: 1.3vw;
     font-weight: 700;
 }
 
-#social-media > i {
+#social-media>i {
     cursor: pointer;
 }
 
 .ri-search-line {
     /* background-color: red; */
-    border-right: 2px solid white;
-    padding-right: 10px;
+    border-right: .2vw solid white;
+    padding-right: .5vw;
 }
 
 
@@ -91,11 +91,11 @@ nav {
     /* background-color: red; */
     width: 70vw;
     height: 15vw;
-    margin: 250px 15vw;
+    margin: 19vw 15vw;
     text-transform: uppercase;
 }
 
-#quot > h1 {
+#quot>h1 {
     /* background-color: red; */
     color: white;
     font-size: 4vw;
@@ -104,14 +104,17 @@ nav {
     text-align: center;
 }
 
-#quot > button {
-    padding: 1vw 2vw;
-    font-size: 2vw;
-    margin-left: 30vw;
-    margin-top: 3vw;
+#quot>button {
+    cursor: pointer;
+    padding: 1vw;
+    font-size: 1.5vw;
+    height: 30%;
+    width: 15%;
+    margin: 2vw 0 0 30vw;
+    text-transform: uppercase;
 }
 
-.section-2{
+.section-2 {
     height: 29vw;
     width: 100vw;
     background-color: black;
@@ -119,27 +122,28 @@ nav {
     text-align: center;
 
 }
- .quot2{
+
+.quot2 {
     /* background-color: red; */
     height: 20%;
- }
+}
 
-.quot2 h3{
+.quot2>h3 {
     /* background-color: green; */
     font-size: 2vw;
     padding-top: 2vw;
     font-weight: 400;
 }
 
-.quot2 p{
+.quot2>p {
     /* background-color: magenta; */
-    margin-top: .5vw; 
+    margin-top: .5vw;
     font-size: 2vw;
-   font-weight: 700;
-    
+    font-weight: 700;
+
 }
 
-.cards{
+.cards {
     /* background-color: green; */
     margin-top: 1vw;
     height: 70%;
@@ -148,99 +152,140 @@ nav {
     justify-content: space-between;
 }
 
-.cards > div {
+.cards>div {
     /* background-color: brown; */
     height: 19vw;
     width: 20vw;
     padding: .5vw 1vw;
 }
 
-.child-card > h3{
+.child-card>h3 {
     margin-top: 1vw;
     font-weight: 700;
     font-size: 1.5vw;
     /* background-color: magenta; */
-} 
+}
 
-.child-card > p{
+.child-card>p {
     /* background-color: magenta; */
     margin-top: 1vw;
     font-size: 1.8vw;
-    
-} 
-.cards > div > i {
+
+}
+
+.cards>div>i {
     /* background-color: magenta; */
     font-size: 4vw;
-} 
+}
 
 .section-3 {
-    height: 150%;
+    height: 80vw;
     width: 100vw;
     color: white;
     background-color: #151515;
     text-align: center;
-    padding: 1vw 6.7vw;
+    padding: 4vw 6.7vw;
 }
 
-.hp{
-    margin-top: 1vw;
-    background-color: cyan;
+.hp {
+    margin: 1vw 0;
+    height: 4vw;
+    /* background-color: cyan; */
 }
 
-.hp > h3{
-   font-weight: 400;
+.hp>p {
+    margin-top: .5vw;
+    font-weight: 400;
+    font-size: 1.5vw;
 }
 
-.hp > p{
-   margin-top: .5vw;
-   font-size: 1.5vw;
-   font-weight: 700;
+
+.hp>h3 {
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding: .5vw 0;
 }
 
-.main{
-    background-color: red;
-    height: 80%;
+
+
+.main {
+    /* background-color: red; */
+    height: 85vh;
 }
 
-.upper-part{
-    height: 40%;
+.upper-part {
+    height: 30vw;
     margin-top: 1vw;
     /* background-color: red; */
     display: flex;
     justify-content: space-between;
 }
 
-.upper-part > div {
-    height: 100%;
+.upper-part>div {
+    height: 30vw;
     width: 27vw;
-}
-
-.strength-weightlifting{
-    height: 300px;
     background-color: rgb(230, 171, 22);
 }
 
-.cardio-indoor{
-    height: 300px;
-    background-color: rgb(64, 13, 173);
-}
 
-.strength-kettlebell{
-    height: 300px;
-    background-color: rgb(33, 185, 25);
-}
-
-.lower-part{
+.lower-part {
     margin-top: 1.5vw;
-    height: 50%;
-    background-color: green;
+    height: 33vw;
+    /* background-color: green; */
     display: flex;
     justify-content: space-between;
 }
 
-.lower-part > div {
+.lower-part>div {
     height: 100%;
     width: 42vw;
     background-color: white;
     /* border: 1px solid black; */
+}
+
+.section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39vw;
+    width: 100vw;
+    background-image: url('https://images.unsplash.com/photo-1600677396341-16965cbe9224?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.registration{
+    height: 30%;
+    width: 70%;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.registration>h3 {
+    /* background-color: purple; */
+    height: 30%;
+    font-size: 2.5vw;
+    font-weight: 700;
+    padding: .5vw 0;
+    color: white;
+}
+
+.registration>p {
+    /* background-color: green; */
+    height: 20%;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: .1vw 0;
+    color: white;
+}
+.registration>button {
+    /* background-color: green; */
+    cursor: pointer;
+    width: 15%;
+    margin-top: 2vw;
+    height: 30%;
+    font-size: 1vw;
+    text-transform: uppercase;
 }

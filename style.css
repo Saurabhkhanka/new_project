@@ -16,6 +16,8 @@ html {
     background-image: url('https://images.unsplash.com/photo-1614396648745-d5de9c9e037e?q=80&w=2801&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -88,15 +90,17 @@ nav {
 /* Navbar CSS ends */
 
 #quot {
-    /* background-color: red; */
     width: 70vw;
     height: 15vw;
     margin: 19vw 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     text-transform: uppercase;
 }
 
 #quot>h1 {
-    /* background-color: red; */
     color: white;
     font-size: 4vw;
     font-weight: 600;
@@ -110,7 +114,6 @@ nav {
     font-size: 1.5vw;
     height: 30%;
     width: 15%;
-    margin: 2vw 0 0 30vw;
     text-transform: uppercase;
 }
 
@@ -119,62 +122,60 @@ nav {
     width: 100vw;
     background-color: black;
     color: white;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 .quot2 {
-    /* background-color: red; */
     height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .quot2>h3 {
-    /* background-color: green; */
     font-size: 2vw;
     padding-top: 2vw;
     font-weight: 400;
 }
 
 .quot2>p {
-    /* background-color: magenta; */
-    margin-top: .5vw;
     font-size: 2vw;
     font-weight: 700;
-
 }
 
 .cards {
-    /* background-color: green; */
-    margin-top: 1vw;
     height: 70%;
-    padding: 1vw 7vw;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    
 }
 
 .cards>div {
-    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     height: 19vw;
     width: 20vw;
-    padding: .5vw 1vw;
 }
 
 .child-card>h3 {
-    margin-top: 1vw;
     font-weight: 700;
     font-size: 1.5vw;
-    /* background-color: magenta; */
 }
 
 .child-card>p {
-    /* background-color: magenta; */
-    margin-top: 1vw;
     font-size: 1.8vw;
-
+    text-align: center;
 }
 
 .cards>div>i {
-    /* background-color: magenta; */
     font-size: 4vw;
 }
 
@@ -185,16 +186,18 @@ nav {
     background-color: #151515;
     text-align: center;
     padding: 4vw 6.7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hp {
-    margin: 1vw 0;
-    height: 4vw;
-    /* background-color: cyan; */
+    display: flex;
+    flex-direction: column;
 }
 
 .hp>p {
-    margin-top: .5vw;
     font-weight: 400;
     font-size: 1.5vw;
 }
@@ -206,32 +209,24 @@ nav {
     padding: .5vw 0;
 }
 
-
-
-.main {
-    /* background-color: red; */
-    height: 85vh;
-}
-
 .upper-part {
-    height: 30vw;
-    margin-top: 1vw;
-    /* background-color: red; */
     display: flex;
+    align-items: center;
+    
     justify-content: space-between;
 }
 
 .upper-part>div {
     height: 30vw;
-    width: 27vw;
-    background-color: rgb(230, 171, 22);
+    width: 28vw;
+    background-color: red;
+    border: 1px solid black;
+    margin: 2px;
 }
 
 
 .lower-part {
-    margin-top: 1.5vw;
     height: 33vw;
-    /* background-color: green; */
     display: flex;
     justify-content: space-between;
 }
@@ -239,8 +234,9 @@ nav {
 .lower-part>div {
     height: 100%;
     width: 42vw;
-    background-color: white;
-    /* border: 1px solid black; */
+    background-color: red;
+    border: 1px solid black;
+    margin: 2px;
 }
 
 .section-4 {
@@ -257,35 +253,91 @@ nav {
 }
 
 .registration{
-    height: 30%;
-    width: 70%;
     text-align: center;
-    /* background-color: red; */
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .registration>h3 {
-    /* background-color: purple; */
-    height: 30%;
     font-size: 2.5vw;
     font-weight: 700;
-    padding: .5vw 0;
     color: white;
+    
 }
 
 .registration>p {
     /* background-color: green; */
-    height: 20%;
     font-size: 2vw;
     font-weight: 100;
-    padding: .1vw 0;
     color: white;
 }
 .registration>button {
     /* background-color: green; */
     cursor: pointer;
-    width: 15%;
-    margin-top: 2vw;
-    height: 30%;
-    font-size: 1vw;
+    font-size: 2vw;
+    padding: 4px 10px;
     text-transform: uppercase;
+}
+
+/* footer section */
+footer{
+    height: 35vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4vw 6.7vw;
+    background-color: black;
+    color: white;
+}
+
+.infoContainer{
+    height: 20%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info{
+    width: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info>i{
+    height: 100%;
+    width: 20%;
+    /* background-color: yellow; */
+    font-size: 4vw;
+    text-align: center;
+   
+}
+
+
+.info>p{
+    height: 100%;
+    width: 80%;
+    font-size: 1vw;
+    font-weight: 400;
+    padding: 4% 10%;
+    /* background-color: magenta; */
+}
+
+.lower{
+    height: 60%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower>div{
+    width: 24%;
+    height: 100%;
+    background-color: green;
 }
